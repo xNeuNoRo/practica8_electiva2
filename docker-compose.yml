@@ -1,0 +1,30 @@
+services:
+  ubuntu1:
+    build: .
+    hostname: ubuntu1
+    ports:
+      - "127.0.0.1:2221:22"
+
+  ubuntu2:
+    build: .
+    hostname: ubuntu2
+    ports:
+      - "127.0.0.1:2222:22"
+
+  ubuntu3:
+    build: .
+    hostname: ubuntu3
+    ports:
+      - "127.0.0.1:2223:22"
+
+  ubuntu4:
+    build: .
+    hostname: ubuntu4
+    ports:
+      - "127.0.0.1:2224:22"
+
+  ubuntu5:
+    build: .
+    hostname: ubuntu5
+    ports:
+      - "127.0.0.1:2225:22"
